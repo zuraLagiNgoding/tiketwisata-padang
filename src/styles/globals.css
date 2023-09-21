@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  animation-duration: 0s !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.bg_custom {
+  background-image: url("./../../public/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@layer components {
+  .react-tooltip {
+    @apply !bg-statusInactive !font-medium !text-white;
+  }
+}
