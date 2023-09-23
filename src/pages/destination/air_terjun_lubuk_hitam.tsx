@@ -91,7 +91,7 @@ export default function Destination() {
             </div>
             <div className="flex flex-col gap-4 w-full mt-6">
               <Button 
-                className="bg-primary text-white w-1/4 ml-auto"
+                className="bg-primary text-white w-1/3 2xl:w-1/4 ml-auto"
                 onClick={() => router.push("/order")}
                 text="Pesan Tiket"
                 variant="filled"
