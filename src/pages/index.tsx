@@ -14,13 +14,18 @@ export default function Dashboard() {
   const { setTitle } = useHeader();
   const router = useRouter();
   const [ ticketAmount, setTicketAmount ] = React.useState<number[]>([])
+  const [destination, setDestination] = React.useState()
 
   React.useEffect(() => {
     setTitle("Dashboard");
   }, []);
   
   React.useEffect(() => {
-  });
+    if (destination === 0) {
+      router.push("")
+    }
+
+  }, [destination]);
 
   return (
     <>
