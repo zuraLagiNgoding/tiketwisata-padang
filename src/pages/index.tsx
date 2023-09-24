@@ -34,7 +34,7 @@ export default function Dashboard() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row w-full bg_custom pt-28 pb-16 2xl:py-36 xl:px-24 px-12 gap-20 items-center" id="#beranda">
+      <div className="flex flex-col md:flex-row w-full pt-28 pb-16 2xl:py-36 xl:px-24 px-12 gap-20 items-center bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url("/background.jpg")`}} id="#beranda">
         <h1 className="text-white font-bold text-3xl lg:text-6xl basis-7/12">Eksplorasi Destinasi Impian Anda Bersama Kami</h1>
         <div className="flex flex-col gap-6 2xl:px-16 px-10 2xl:pt-7 pt-5 2xl:pb-10 pb-7 basis-5/12 bg-white rounded-2xl">
           <h1 className="text-2xl 2xl:text-3xl font-semibold text-center 2xl:mb-4 text-primary">Rencanakan Wisatamu!</h1>
