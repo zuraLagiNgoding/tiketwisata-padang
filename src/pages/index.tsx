@@ -45,8 +45,9 @@ export default function Dashboard() {
                 className="w-full text-sm"
                 placeholder="Pilih Destinasi Wisata"
                 options={[
-                  { label: "Directur", value: "directur" },
-                  { label: "Marketing", value: "marketing" },
+                  { label: "Air Terjun Lubuk Hitam", value: "directur" },
+                  { label: "Banto Royo", value: "marketing" },
+                  { label: "Pantai Pasumpahan", value: "pantai_pasumpahan" },
                 ]}
                 onChange={() => {}}
                 isSearchable

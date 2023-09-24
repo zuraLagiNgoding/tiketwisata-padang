@@ -80,8 +80,8 @@ export default function index() {
                             className="w-[40%]"
                             placeholder="Pilih Metode Pembayaran"
                             options={[
-                            { label: "Directur", value: "directur" },
-                            { label: "Marketing", value: "marketing" },
+                            { label: "Langsung", value: "directur" },
+                            { label: "Online", value: "marketing" },
                             ]}
                             onChange={() => {}}
                             isSearchable
@@ -96,8 +96,8 @@ export default function index() {
                         className="w-full"
                         placeholder="Pilih Hotel"
                         options={[
-                        { label: "Directur", value: "directur" },
-                        { label: "Marketing", value: "marketing" },
+                        { label: "Hotel 1", value: "directur" },
+                        { label: "Hotel 2", value: "marketing" },
                         ]}
                         onChange={() => {}}
                         isSearchable
